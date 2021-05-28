@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    <title>MENU</title>
+{% endblock %}
+
+{% block content %}
+<center>
+    <br><br>
+    <img src="{% static 'images/image.jpg' %}" alt="MENU" width="75" height="100"><br><br>
+    <h1>{{name}}</h1>
+    <h1>{{email}}</h1>
+    <h1>{{phno}}</h1>
+</center>
+{% endblock %}
